@@ -1,0 +1,158 @@
+.logo{
+    height:30px;
+    background-color: white;
+    
+  }
+  nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 20px ;
+    position: fixed;
+    top: 5px;
+    z-index:1;
+  }
+  
+  #navbar{
+    display: flex;
+    padding:0px 300px;
+  }
+  
+  #navbar li{
+    list-style:none;
+    padding: 0px 30px;
+    position: relative;
+    font-size: 15px;
+  
+    
+  }
+  #navbar a:hover{
+    color: #F53855 ;
+    text-decoration: underline #F53855 solid;
+  }
+  #navbar a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.812);
+  }
+  #btn{
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    font-size: 15px;
+    
+  }
+  #btn a{
+    padding: 0px 20px;
+    text-decoration: solid;
+    color: black;
+    font-weight:500;
+  }
+  #btn a:hover{
+    color: #F53855 ;
+  }
+  #signup{
+    box-sizing: border-box;
+    border: 0.469826px solid #F53855;
+    border-radius: 23.4913px;
+    height: 25px;
+    width: 75px;
+  }
+  #signup:hover{
+    background-color: #F53855;
+    color: white;
+  }
+
+@media (max-width:1440px) {
+    .logo{
+        padding: 5px;
+    }
+    #navbar a:hover{
+        color: #F53855 ;
+        text-decoration: underline #F53855 solid;
+      }
+    #btn{
+        margin-left: -100px;
+      }
+      #btn a{
+        padding: 0px 25px;
+        
+      }
+    
+}
+@media (max-width:1080px) {
+    .logo{
+        height: 20px;
+    }
+    #navbar{
+      padding: 0px 200px;
+    }
+    #navbar li{
+        padding: 0px 15px;        
+        font-size: 13px;
+    }
+
+    #navbar a:hover{
+        color: #F53855 ;
+        text-decoration: underline #F53855 solid;
+    }
+    #btn{
+          
+        font-size: 12px;   
+    }
+    #btn a{
+        padding: 0px 5px;
+        
+    }
+    #status{
+        display: -webkit-inline-flex;
+    }
+    #value{
+        display: -webkit-inline-flex;
+    }  
+
+}
+@media (max-width:980px){
+  #navbar{
+    padding: 0px 80px;
+  }
+  #navbar li{
+    padding:0px 10px
+  }
+  #btn{
+    padding-left: 130px;
+  }
+}
+@media(max-width:450px){
+  #navbar{
+    padding: 0px 10px;
+  }
+  #navbar li{
+    padding:0px 3px;
+    font-size: 10px;
+
+  }
+  #btn{
+    font-size: 10px;
+    padding: 0px 100px;
+  }
+  #signup{
+    font-size: 10px;
+    height: 15px;
+    width: 50px;
+  }
+
+
+}
+@media(max-width:380px){
+  #navbar{
+    padding: 0px 20px;
+  }
+  #navbar li{
+    padding:0px 2px;
+    font-size: 10px;
+
+  }
+  #btn{
+    padding: 0px 90px;
+  }
+}

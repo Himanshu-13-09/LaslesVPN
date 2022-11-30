@@ -1,0 +1,190 @@
+#users {
+    box-sizing: border-box;
+    height: 200px;
+
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+
+}
+
+#user1 {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 150px;
+}
+
+#user2 {
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 150px;
+}
+
+#profile {
+    height: 50px;
+
+}
+
+#name {
+    position: relative;
+    bottom: 70px;
+    left: 60px;
+    font-size: 15px;
+    background: none;
+}
+
+#loc1 {
+    position: relative;
+    width: 100px;
+    bottom: 95px;
+    left: 60px;
+    background: none;
+    font-size: 11px;
+    color: #4F5665;
+}
+
+#rate {
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    bottom: 135px;
+    left: 250px;
+    background: none;
+}
+
+#star {
+    height: 12px;
+    background: none;
+    left: 25px;
+    position: relative;
+    bottom: 15px;
+}
+
+#myself {
+    position: relative;
+    bottom: 120px;
+    left: 20px;
+    width: 300px;
+    font-size: 12px;
+}
+
+#caro {
+    width: 70vw;
+    background: none;
+
+}
+@media(max-width:1280px){
+    #profile{
+        height: 35px;
+    }
+    #name {
+     
+        bottom: 58px;
+        left: 60px;
+        font-size: 12px;
+    }
+    
+    #loc1 {
+
+        bottom: 80px;
+        font-size: 10px;
+    }
+    
+    #rate {
+        font-size: 10px;
+        bottom: 110px;
+        left: 180px;
+    }
+    
+    #star {
+        height: 10px;
+        left: 20px;
+        bottom: 12px;
+    }
+    
+    #myself {
+        position: relative;
+        bottom: 90px;
+        left: 20px;
+        width: 300px;
+        font-size: 11px;
+    }
+
+}
+@media(max-width:980px){
+    #profile{
+        height: 35px;
+    }
+    #name {
+     
+        bottom: 58px;
+        left: 60px;
+        font-size: 12px;
+    }
+    
+    #loc1 {
+
+        bottom: 80px;
+        font-size: 10px;
+    }
+    
+    #rate {
+        font-size: 10px;
+        bottom: 110px;
+        left: 200px;
+    }
+    
+    #star {
+        height: 10px;
+        left: 20px;
+        bottom: 12px;
+    }
+    
+    #myself {
+        position: relative;
+        bottom: 90px;
+        left: 20px;
+        width: 300px;
+        font-size: 11px;
+    }
+}
+@media(max-width:380px){
+    #profile{
+        height: 30px;
+    }
+    #name {
+     
+        bottom: 50px;
+        left: 40px;
+        font-size: 11px;
+    }
+    
+    #loc1 {
+
+        bottom: 70px;
+        font-size: 9.5px;
+        left: 40px;
+    }
+    
+    #rate {
+        font-size: 10px;
+        bottom: 100px;
+        left: 160px;
+    }
+    
+    #star {
+        height: 10px;
+        left: 18px;
+        bottom: 11px;
+    }
+    
+    #myself {
+        position: relative;
+        bottom: 90px;
+        left: 20px;
+        width: 300px;
+        font-size: 11px;
+    }
+}
